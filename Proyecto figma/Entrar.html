@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+<style>
+body{
+    background-image: url(images/universo\ 2.png);
+}
+#letra{color:blue;}
+#letra2{color: white;}
+#anonimus{
+    width: 150px;
+height: 150px;
+}
+#ondas{
+    width: 240px;
+height: 150px;
+border-radius: 80px;
+}
+#colortabla{background-image: url(images/galaxia.jpg);  width: 500px; height: 230px; 
+}
+#botonenviar{ border-radius: 50px; border-color: blue;  }
+
+</style>
+
+    
+</head>
+<body>
+
+
+
+
+
+
+    
+<!-- logo de anonimus -->
+
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiS5vryxaTvAhWu2FkKHeypABQQFjABegQIARAD&url=https%3A%2F%2Fwww.youtube.com%2Fc%2FAnonymous&usg=AOvVaw0FNtlqahlowfq_-DTU0106&cshid=1615338783944800">
+
+    <img    id="anonimus"  src="images/anonimus.png" alt=""></a>
+    </div>
+    
+        </div>
+        <!-- logo de la nasa -->
+    
+        <a href="https://www.nasa.gov/press-release/la-nasa-ofrecer-una-retransmisi-n-en-espa-ol-para-el-aterrizaje-del-rover-mars">
+    <img     src="images/logo de la nasa.png" id="ondas"></a>
+    
+
+
+
+
+
+   
+    <form action="home.html" method=""  >
+
+<table   id="colortabla"  border="1"  align="center"   >
+
+<!-- required para que el campo sea obligatrio  -->
+<!-- maxlength para que tenga el numero de caracateres que uno quiera -->
+<!-- minlength para especificar un minimo de caracateres -->
+<!-- imput type hay varios como color o mail o file y asi para seleccionar  -->
+   <!-- border para bordes -->
+<!-- patter para especificar -->
+<!-- colspan para que se alinie con las demas columnas -->
+<tr  align="center" >
+    <td colspan="2" >  <h1 id="letra"   >
+        Ingreso
+    </h1>
+        
+    </td>
+</tr>
+<tr>
+        <td  id="letra2"   >
+            Usuario:
+        </td>
+        <td>
+            <input type="text" name="usuario" id="" placeholder="Dijite su nombre usuario   "  title="Escriba su identificacion de usuario " 
+            required maxlength="7" minlength="7"  required pattern="[k-l][d-e][v-w][h-i][m-n][c-d][p-q]">   
+            <!-- USUARIO:KEVINCP -->
+        </td>
+    </tr>
+
+    <tr>
+        <td id="letra2"   >
+            Contraseña: 
+        </td>
+        <td>
+            <input type="password" name="contraseña" id=""  placeholder="Dijite su contraseña"  title="Dijite su contraseña " required maxlength="8" minlength="8"  required   pattern="[a-b][l-m][f-g][a-b][a-b][d-e][t-u][a-b]" > </td>
+      <!-- CONTRASEÑA:ALFABETA -->
+    </tr>
+
+    <tr>
+        <td id="letra2"   >
+            Edad: 
+        </td>
+        <td>
+            <input type="number" name="Edad" id=""  placeholder="Dijite su edad"  title="Dijite su edad" min="18"  max="80" required > 
+           
+
+
+
+        </td>
+     
+            <td> <p id="botonenviar"   ><input  id="botonenviar"    type="submit" value="ENVIAR DATOS"></p>
+
+                <a class="small" href="Registro y recuperar contraseña.html">Registrate o Recupera tu contraseña</a> 
+                      </td>
+                    
+    </tr>
+    
+        
+        
+   
+    
+
+</table >
+
+   <!-- br es salto de linea -->
+ 
+
+   <!-- submit activa el boton y da acceso a que la informacion se redirija -->
+
+  </form>
+
+ <!-- ventana emergentevde ayuda en el panel  title="Escriba su nombre completo"   -->
+</body>
+</html> 
+
+
+<!-- 
+FECHA:
+ <tr>
+        <td  id="letra2" >
+            Fecha de nacimiento: 
+        </td>
+        <td>
+            <input type="date" name="fecha" id=""  placeholder="Fecha de nacimiento"  title="Escoja su fecha de nacimiento" required > 
+            
+            <td><p> <input type="submit" value="Enviar datos"   > </p></td>
+                   
+            
+        </td>
+        
+    </tr>
+
+
+
+
+
+
+
+ -->

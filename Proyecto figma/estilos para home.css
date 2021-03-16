@@ -1,0 +1,7 @@
+.navbar-nav .nav-link{
+    font-size: larger;
+}
+/* aumentar letras al acercar el mouse */
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+}
